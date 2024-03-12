@@ -8,9 +8,11 @@
 
     <title>Braeden Poole</title>
     <link rel="icon" href="Images/faceSquareCropped.JPG" type="image/x-icon">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
-<body class="bg-black">
+<body class="bg-black font-playfair">
     <!--Navbar-->
     <div class="fixed top-0 w-full flex items-center justify-between h-20 text-white px-5 lg:px-0 drop-shadow-xl bg-black border-black" style=" z-index: 999;">
         <!--Navbar Logo-->
@@ -26,7 +28,7 @@
         </button>
 
         <!--Navbar Menu For Computer Versions-->
-        <nav id="navbar-menu" class="hidden lg:block text-lg font-semibold absolute right-14">
+        <nav id="navbar-menu" class=" hidden lg:block text-lg font-semibold absolute right-14">
             <a href="#home" class="px-2 py-2 hover:text-yellow-400">Home</a>
             <a href="#about" class="px-2 py-2 hover:text-yellow-400">About</a>
             <a href="#formContact" class="px-2 py-2 hover:text-yellow-400">Contact</a>
@@ -42,10 +44,15 @@
 
     <!--Intro Content-->
     <section id="home" class="h-screen bg-cover bg-center" style="background-image: url('Images/Splash Page.png');">
-        <div class="container mx-auto flex items-center justify-center h-full">
-            <div class="lg:text-left w-full lg:w-3/5">
-                <h1 class="md:text-8xl text-6xl font-semibold mb-4 text-center md:text-left text-white">Welcome to The Future of Fitness Tracking</h1>
-            </div>                
+        <div class="flex flex-col lg:flex-row justify-center items-center h-screen text-center">
+            <div class="content text-center justify-center lg:text-left lg:w-1/3 w-full lg:mr-12 lg:pr-0 lg:pl-0 text-white">
+                <div class="lg:text-left">
+                    <h1 class="md:text-8xl text-6xl font-semibold mb-4 text-center md:text-left text-white">Welcome to The Future of Fitness Tracking</h1>
+                </div>                
+            </div>
+            <div>
+                <img class="w-96 h-96" src="Images/Logo Cropped.png">
+            </div>
         </div>
     </section>
 
@@ -54,7 +61,7 @@
             <!--Crypto Project-->
             <div class="flex flex-col lg:flex-row justify-center items-center h-screen text-center">
                 <!-- Text Content -->
-                <div class="content text-center justify-center lg:text-left lg:w-1/4 w-1/2 lg:mr-12 lg:pr-0 lg:pl-0 text-white">
+                <div class="content text-center justify-center lg:text-left lg:w-1/4 w-full lg:mr-12 lg:pr-0 lg:pl-0 text-white">
                     <h1 class="md:text-5xl text-4xl text-center lg:text-left font-light mb-4 justify-center lg:justify-start pt-24 flex">
                         <div class="whitespace-nowrap">What is </div>
                         <div class="pl-3 font-bold text-yellow-400"> Salus?</div>
@@ -73,7 +80,7 @@
 
                 <div class="content lg:text-left justify-center items-center text-center lg:flex-col flex md:mt-16 mt-8">
                     <a href="https://www.braedenpoole.com/scanner.html" target="_blank" class="h-72 lg:h-96 w-auto rounded-md">
-                        <img class="h-72 lg:h-96 w-auto " src="Images/Body image slaus.png">
+                        <img class="h-72 lg:h-96 w-auto" src="Images/Body image slaus.png">
                     </a>
                 </div>
 
@@ -96,8 +103,7 @@
                 </div>
             </form>
         </div>
-    </section>
-    
+    </section>  
 
     
 
@@ -106,7 +112,7 @@
             <h1 class="text-2xl font-bold mb-4 justify-center order-1 text-center">Download Us On The AppStore!</h1>
             <div class="flex lg:items-center justify-center items-center pt-8">
                 <a title="LinkedIn" class="h-32 w-32 rounded-lg transition-transform duration-300 transform hover:-translate-y-1" href="https://www.linkedin.com/in/braedenpoole" target="_blank">
-                    <img class="h-32 w-32 rounded-lg border-white border-2" src="Images/Barbell Logo.png">
+                    <img class="h-32 w-32 rounded-lg border-white border-2" src="Images/Logo Cropped.png">
                 </a>
             </div>
 
